@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A2700EFC37D14D181FBD0E /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C97DBDA0B12149F70564E5 /* AppLinks.swift */; };
+		10A18D1C21E627A85A0D535E /* ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07867C8F1346847CC766C159 /* ScreenBackground.swift */; };
+		13283A5F81547B2471F4149B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015624BC6187ABFDF004055 /* AppDelegate.swift */; };
+		17108723661E2190D2A47116 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F5C1C25CBB112A6E0B2E9 /* Haptics.swift */; };
+		1B7E4D90A2C64F8B91E05A3C /* KeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A91C7E2B584F6A9E13C8F0 /* KeyboardDismiss.swift */; };
+		3E8B1D47A9C64F2E90B15A83 /* TravelSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A9E14F5B84D6A81C03E27 /* TravelSupport.swift */; };
+		47A526F385683E63B6B04958 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBABE604C513327FFAB642EA /* OnboardingView.swift */; };
+		6A5F0D8C4B1E4A7392C18E40 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C23F1A9D474B5E82A06C19 /* StatisticsView.swift */; };
+		769458EB7CECA3959DFA8F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4A2BB879871DBA07D4EE7D /* LaunchScreen.storyboard */; };
+		99C4F3986C768FC5124B2D5D /* DestinationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7061648576653A276C90C0AF /* DestinationListView.swift */; };
+		9A375C74E211F598309ACD82 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D77CF997335494DD2415B1 /* SettingsView.swift */; };
+		9ED6A3C06A4273D6037FF70C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F4781E560D50EFA9A7FA1770 /* PrivacyInfo.xcprivacy */; };
+		A78530B2D5E643D97090758D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D0DB1333CF5EEC913DE7AA /* Models.swift */; };
+		B1C82E0D5403FC67C41AB0BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD72615744782890754B01E /* SceneDelegate.swift */; };
+		B9DAACFD8A73D3CB1416BF4B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8D702480E90C712FCF183 /* SettingsViewModel.swift */; };
+		CCAD76BC3073BB057A6DC5D7 /* TravelChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF788E1D5AE95130AC46D6 /* TravelChrome.swift */; };
+		D241AAE71E8FC25ADB52AB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61D96B2632F7B10E881BFB1 /* Assets.xcassets */; };
+		D28A7E622D8E60DCB1782319 /* BoardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3A0A0C772B4C781A66B69 /* BoardsView.swift */; };
+		D41B9F3C1E10FB843245C6DD /* DestinationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BD7A14639E6812B3FD866 /* DestinationDetailView.swift */; };
+		ED450CB50AE87BF68A904481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1692A9A10381BFC4BFD22D2D /* ContentView.swift */; };
+		FF3CDA36DB65AD414571F67A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274ACB59D71DAD0CD84861A5 /* DataStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07867C8F1346847CC766C159 /* ScreenBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenBackground.swift; sourceTree = "<group>"; };
+		0DD72615744782890754B01E /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1692A9A10381BFC4BFD22D2D /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19B17BAA311D0237104AA4FF /* Pods-360TravezaJourneyPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360TravezaJourneyPlanner.debug.xcconfig"; path = "Target Support Files/Pods-360TravezaJourneyPlanner/Pods-360TravezaJourneyPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		1FF8CE9FCA9681927808DE77 /* 360TravezaJourneyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360TravezaJourneyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274ACB59D71DAD0CD84861A5 /* DataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		39D77CF997335494DD2415B1 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		69AF788E1D5AE95130AC46D6 /* TravelChrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TravelChrome.swift; sourceTree = "<group>"; };
+		6C5D23C0F1B70896E1B183FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4A2BB879871DBA07D4EE7D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7061648576653A276C90C0AF /* DestinationListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinationListView.swift; sourceTree = "<group>"; };
+		7C2A9E14F5B84D6A81C03E27 /* TravelSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TravelSupport.swift; sourceTree = "<group>"; };
+		82D0DB1333CF5EEC913DE7AA /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		9015624BC6187ABFDF004055 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91F3A0A0C772B4C781A66B69 /* BoardsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoardsView.swift; sourceTree = "<group>"; };
+		9A8BD7A14639E6812B3FD866 /* DestinationDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinationDetailView.swift; sourceTree = "<group>"; };
+		9F16509B72573C0223E76976 /* Pods_360TravezaJourneyPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_360TravezaJourneyPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27F5C1C25CBB112A6E0B2E9 /* Haptics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		C168C81C5E47B3CFD4C2E489 /* Pods-360TravezaJourneyPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360TravezaJourneyPlanner.release.xcconfig"; path = "Target Support Files/Pods-360TravezaJourneyPlanner/Pods-360TravezaJourneyPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		D4A91C7E2B584F6A9E13C8F0 /* KeyboardDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardDismiss.swift; sourceTree = "<group>"; };
+		D61D96B2632F7B10E881BFB1 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8C23F1A9D474B5E82A06C19 /* StatisticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		E9C97DBDA0B12149F70564E5 /* AppLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		EAD8D702480E90C712FCF183 /* SettingsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		EBABE604C513327FFAB642EA /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F4781E560D50EFA9A7FA1770 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25AF92CE55AAC7732241A1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABAC07280F5B0B76B2ED07E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				69AF788E1D5AE95130AC46D6 /* TravelChrome.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0F22B9FB2D6C8CAA411E61AB = {
+			isa = PBXGroup;
+			children = (
+				6D0038EC78CE47B9EE9ADB68 /* 360TravezaJourneyPlanner */,
+				C7D8EC1C6AE5538419E45CD5 /* Products */,
+				A2B09EE9CE49E119B57ED9E5 /* Frameworks */,
+				229405881215056B891E436C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		229405881215056B891E436C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B17BAA311D0237104AA4FF /* Pods-360TravezaJourneyPlanner.debug.xcconfig */,
+				C168C81C5E47B3CFD4C2E489 /* Pods-360TravezaJourneyPlanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		366664A6711C1667BD2060B7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E9C97DBDA0B12149F70564E5 /* AppLinks.swift */,
+				B27F5C1C25CBB112A6E0B2E9 /* Haptics.swift */,
+				D4A91C7E2B584F6A9E13C8F0 /* KeyboardDismiss.swift */,
+				07867C8F1346847CC766C159 /* ScreenBackground.swift */,
+				7C2A9E14F5B84D6A81C03E27 /* TravelSupport.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37743F9425560F69480CC21E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				274ACB59D71DAD0CD84861A5 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5344D2DDA3B5630AC2EC3B76 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8D702480E90C712FCF183 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A6CA0501DE40E627325D787 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9015624BC6187ABFDF004055 /* AppDelegate.swift */,
+				0DD72615744782890754B01E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6D0038EC78CE47B9EE9ADB68 /* 360TravezaJourneyPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				5A6CA0501DE40E627325D787 /* App */,
+				0ABAC07280F5B0B76B2ED07E /* Components */,
+				9E24B87C053E9C8E7381E5DA /* Models */,
+				37743F9425560F69480CC21E /* Services */,
+				366664A6711C1667BD2060B7 /* Utilities */,
+				5344D2DDA3B5630AC2EC3B76 /* ViewModels */,
+				BA857D3C511E7F91C3CA2BBF /* Views */,
+				D61D96B2632F7B10E881BFB1 /* Assets.xcassets */,
+				6F4A2BB879871DBA07D4EE7D /* LaunchScreen.storyboard */,
+				F4781E560D50EFA9A7FA1770 /* PrivacyInfo.xcprivacy */,
+				6C5D23C0F1B70896E1B183FF /* Info.plist */,
+			);
+			path = 360TravezaJourneyPlanner;
+			sourceTree = "<group>";
+		};
+		9E24B87C053E9C8E7381E5DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82D0DB1333CF5EEC913DE7AA /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2B09EE9CE49E119B57ED9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F16509B72573C0223E76976 /* Pods_360TravezaJourneyPlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA857D3C511E7F91C3CA2BBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91F3A0A0C772B4C781A66B69 /* BoardsView.swift */,
+				1692A9A10381BFC4BFD22D2D /* ContentView.swift */,
+				9A8BD7A14639E6812B3FD866 /* DestinationDetailView.swift */,
+				7061648576653A276C90C0AF /* DestinationListView.swift */,
+				EBABE604C513327FFAB642EA /* OnboardingView.swift */,
+				39D77CF997335494DD2415B1 /* SettingsView.swift */,
+				E8C23F1A9D474B5E82A06C19 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7D8EC1C6AE5538419E45CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8CE9FCA9681927808DE77 /* 360TravezaJourneyPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CEF708932514307193E795F /* 360TravezaJourneyPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF75E29D4123AEA7EDCE24CD /* Build configuration list for PBXNativeTarget "360TravezaJourneyPlanner" */;
+			buildPhases = (
+				55E188D7597415F2FDEDA627 /* [CP] Check Pods Manifest.lock */,
+				720ABF562796EE54EB713185 /* Sources */,
+				25AF92CE55AAC7732241A1A3 /* Frameworks */,
+				BC0EF68468D1B0A596D60B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360TravezaJourneyPlanner;
+			productName = 360TravezaJourneyPlanner;
+			productReference = 1FF8CE9FCA9681927808DE77 /* 360TravezaJourneyPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FBDE7EB1F9DD468D8722DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F5FD916859851D4B08C7823C /* Build configuration list for PBXProject "360TravezaJourneyPlanner" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F22B9FB2D6C8CAA411E61AB;
+			productRefGroup = C7D8EC1C6AE5538419E45CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CEF708932514307193E795F /* 360TravezaJourneyPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0EF68468D1B0A596D60B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D241AAE71E8FC25ADB52AB35 /* Assets.xcassets in Resources */,
+				769458EB7CECA3959DFA8F09 /* LaunchScreen.storyboard in Resources */,
+				9ED6A3C06A4273D6037FF70C /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55E188D7597415F2FDEDA627 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360TravezaJourneyPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720ABF562796EE54EB713185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13283A5F81547B2471F4149B /* AppDelegate.swift in Sources */,
+				B1C82E0D5403FC67C41AB0BB /* SceneDelegate.swift in Sources */,
+				CCAD76BC3073BB057A6DC5D7 /* TravelChrome.swift in Sources */,
+				A78530B2D5E643D97090758D /* Models.swift in Sources */,
+				FF3CDA36DB65AD414571F67A /* DataStore.swift in Sources */,
+				05A2700EFC37D14D181FBD0E /* AppLinks.swift in Sources */,
+				17108723661E2190D2A47116 /* Haptics.swift in Sources */,
+				10A18D1C21E627A85A0D535E /* ScreenBackground.swift in Sources */,
+				B9DAACFD8A73D3CB1416BF4B /* SettingsViewModel.swift in Sources */,
+				D28A7E622D8E60DCB1782319 /* BoardsView.swift in Sources */,
+				ED450CB50AE87BF68A904481 /* ContentView.swift in Sources */,
+				D41B9F3C1E10FB843245C6DD /* DestinationDetailView.swift in Sources */,
+				99C4F3986C768FC5124B2D5D /* DestinationListView.swift in Sources */,
+				47A526F385683E63B6B04958 /* OnboardingView.swift in Sources */,
+				9A375C74E211F598309ACD82 /* SettingsView.swift in Sources */,
+				1B7E4D90A2C64F8B91E05A3C /* KeyboardDismiss.swift in Sources */,
+				6A5F0D8C4B1E4A7392C18E40 /* StatisticsView.swift in Sources */,
+				3E8B1D47A9C64F2E90B15A83 /* TravelSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A32EDB04F2A37E56AB0DCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C168C81C5E47B3CFD4C2E489 /* Pods-360TravezaJourneyPlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 360TravezaJourneyPlanner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traveza Journey Planner";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mak.tr3v3z8j07rn2ypl0nn5r;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36E3AE474D7FE9F87DF001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE760A7C5DF6298B0017A61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B17BAA311D0237104AA4FF /* Pods-360TravezaJourneyPlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 360TravezaJourneyPlanner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traveza Journey Planner";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mak.tr3v3z8j07rn2ypl0nn5r;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD665DBA8F9A488A93939E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF75E29D4123AEA7EDCE24CD /* Build configuration list for PBXNativeTarget "360TravezaJourneyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE760A7C5DF6298B0017A61C /* Debug */,
+				7A32EDB04F2A37E56AB0DCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FD916859851D4B08C7823C /* Build configuration list for PBXProject "360TravezaJourneyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD665DBA8F9A488A93939E74 /* Debug */,
+				A36E3AE474D7FE9F87DF001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FBDE7EB1F9DD468D8722DBC /* Project object */;
+}
